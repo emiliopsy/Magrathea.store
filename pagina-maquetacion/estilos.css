@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Gayathri:100,400&display=swap');
+
+body{
+	background: #fff;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #333;
+}
+.clear{
+	clear: both;
+}
+.contenedor{
+	background: #fff;
+	max-width: 1170px;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+}
+header{
+	padding: 15px;
+}
+header .logo{
+	font-size: 18px;
+	line-height: 1.11;
+	font-weight: 700;
+}
+header .menu{
+	float: right;
+}
+header .menu ul{
+	padding: 0;
+	margin: 0;
+}
+header .menu ul li{
+	list-style: none;
+	float: left;
+}
+header .menu ul li a{
+	font-size: 13px;
+	font-weight: 700;
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0 15px;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-ms-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+}
+header .menu ul li a:hover{
+	color: #1d8c92;
+}
+.imagenes{
+	max-width: 100%;
+}
+section.texto{
+	background: #1d8c92;
+	padding: 100px;
+	margin-top: -5px;
+}
+section.parallax{
+	height: 500px;
+	background-image: url(test.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed
+}
+.soporte-texto{
+	max-width: 780px;
+	text-align: center;
+	margin: 0 auto;
+}
+.soporte-texto h2{
+	color: #fff;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin: 0;
+	text-align: center;
+}
+.soporte-texto p{
+	color: #fff;
+	text-align: center;
+	font-size: 15px;
+}
+.accesos {
+	background: #fff;
+	padding: 100px 15px;
+}
+
+.accesos h2{
+	font-size: 30px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.accesos .separador{
+    border:2px solid #1d8c92;
+    max-width: 50px;
+    margin: 20px auto 40px;
+}
+
+.accesos .acceso{
+    float: left;
+    text-align: center;
+    width: 21%;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+.accesos .acceso h3{
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.accesos .acceso i{
+	color: #1d8c92;
+	font-size: 56px;
+}
+
+.accesos .acceso p{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #777;
+    margin: 0;
+}
+
+footer{
+	padding: 15px;
+	background: #ccc;
+}
+
+footer .copy,
+footer .redes,
+footer .author{
+	float: left;
+	width: 33.33%;
+	font-size: 12px;
+}
+
+footer .redes{
+	text-align: center;
+}
+
+footer .author{
+	text-align: right;
+}
+
+footer .copy,
+footer .author{
+	padding-top: 5px;
+}
+
+footer .redes a{
+	background: #1d8c92;
+	text-decoration: none;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	display: inline-block;
+	text-align: center;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-ms-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+}
+
+footer .redes a:hover{
+	background: #fff;
+}
+
+footer .redes a i{
+	color: #fff;
+	padding-top: 10px;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-ms-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+}
+
+footer .redes a:hover i{
+	color: #1d8c92;
+}
